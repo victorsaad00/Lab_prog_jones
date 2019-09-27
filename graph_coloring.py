@@ -48,6 +48,7 @@ def getVertices(graph):
 
 # Recebe um vertice, uma cor, o grafo de vertices ja pintado e o grafo
 # Assim, verifica se o vertice v ( o vertice do grafo ) ja tem cor no col_graph
+# e os seus adjacentes
 
 def paintGraph(v, color, col_graph, graph):
 
