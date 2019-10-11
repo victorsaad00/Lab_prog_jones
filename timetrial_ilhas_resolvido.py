@@ -11,17 +11,13 @@ def dijkstra(conexoes, ilha, servidor):
     pings[ilha] = 0
 
     while unvisited:
-
+        
         min_v = min(unvisited, key=lambda vertex: pings[vertex])
-
         for v in conexoes[min_v]:
-
             min_path = pings [min_v] + v[1]
-
             if min_path < pings[v[0]]:
-
                 pings[v[0]] = min_path
-
+                
         unvisited.remove(min_v)
 
     return pings[servidor]
