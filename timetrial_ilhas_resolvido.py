@@ -60,7 +60,7 @@ main()
 A ideia é calcular o valor do ping de todas as conexoes existentes até a ilha do servidor.
 Com a ajuda do algoritmo de dijkstra, o ping seria calculado e o resultado do ping daquela ilhas até o servidor
 seria salvo em uma lista de pings. Depois, com todos os pings salvos, iria pegar o menor e o maior valor dos pings
-e subtrair o maior ping do menor ping retornando o resultado. Com a ajuda do min e max do python, podemos
+e subtrair o menos ping do maior ping retornando o resultado. Com a ajuda do min e max do python, podemos
 calcular o maior e o menos ping e subtrair o menor do maior. Assim, obtendo o resultado desejado.
 
 '''
